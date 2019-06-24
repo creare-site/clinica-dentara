@@ -1,0 +1,27 @@
+{
+    "author"         : "WebsiteMarket",
+    "email"          : "office@parvudent.ro",
+    "phone"          : "0746.951.017",
+
+    "brand"          : "Clinica Dentara",
+    "h1"             : "Site Clinica Dentara",
+
+    "top" : {
+        "info1"      : "Parvudent", 
+        "info2"      : "Alege sa ai dinti frumosi"
+    }, 
+
+    "seo" : {
+        "title"      : "Creare Site - Clinica Dentara | WebsiteMarket", 
+        "desc"       : "Site simplu de prezentare pentru o clinica dentara, care ofera servicii stomatologice"
+    }, 
+
+    "links" : {
+        "buy"        : "https://websitemarket.ro/comanda?ref=clinica-dentara", 
+        "blog"       : "https://websitemarket.ro/creare-site/clinica-dentara",
+        "github"     : "https://github.com/creare-site/clinica-dentara",
+        "facebook"   : "https://www.facebook.com/Dr.AndreeaParvu"
+    }, 
+
+    "LAST_KEY" : "NA"
+}

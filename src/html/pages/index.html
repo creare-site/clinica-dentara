@@ -1,0 +1,96 @@
+---
+layout: default
+---
+
+    <!-- Intro -->
+    <section id="intro" class="main style1 dark fullscreen">
+        <div class="content">
+            <header>
+            <h1> {{ data.h1 }} </h1>
+            </header>
+            <p>
+            {{ data.top.info1 }}
+            <br />
+            {{ data.top.info2 }}
+
+            <br /><a target="_blank" href="{{data.links.buy}}">Comanda Site</a>    
+            </p>
+            <footer>
+                <a href="#one" class="button style2 down">Mai mult</a>
+            </footer>
+        </div>
+    </section>
+
+    <!-- One -->
+    <section id="one" class="main style2 right dark fullscreen">
+        <div class="content box style2">
+            <header>
+                <h2>
+                    Servicii
+                </h2>
+            </header>
+            <p>       <strong>CONSULT</strong> - Evaluarea sanatatii oro-dentare, intocmirea planului de tratament
+                <br /><strong>ESTETICA</strong> - Cosmetizare dentara, obtinerea unui zambet cat mai cald, placut si atragator
+            </p>
+        </div>
+        <a href="#two" class="button style2 down anchored">Next</a>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="main style2 left dark fullscreen">
+        <div class="content box style2">
+            <header>
+                <h2>
+                    Alaturi de clienti
+                </h2>
+            </header>
+            <p>       <strong>PEDODONTIE</strong> - Medicina dentara pediatrica. 
+                <br /><strong>PROTETICA</strong> - Protetica dentara se ocupa cu inlocuirea dintilor lipsa sau o reabilitare orala completa a arcadelor dentare
+            </p>
+        </div>
+        <a href="#work" class="button style2 down anchored">Next</a>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="main style3 primary">
+        <div class="content">
+            <header>
+                <h2>ParvuDent</h2>
+<p>
+O igiena dentara riguroasa este principalul factor care scade aparitia cariilor dentare. Dar este la fel de important sa facem o verificare periodica odata la 6 luni.
+</p>
+            </header>
+
+            <!-- Gallery  -->
+                <div class="gallery">
+                    
+                    <article class="from-left">
+                        <a href="{{root}}images/fulls/01.png" class="image fit">
+                            <img src="{{root}}images/thumbs/01.png" title="{{data.brand}}" alt="{{data.brand}} - Image 1." />
+                        </a>
+                    </article>
+
+                    <article class="from-right">
+                        <a href="{{root}}images/fulls/02.png" class="image fit">
+                            <img src="{{root}}images/thumbs/02.png" title="{{data.brand}}" alt="{{data.brand}} - Image 2." />
+                        </a>
+                    </article>
+                    
+                    <article class="from-left">
+                        <a href="{{root}}images/fulls/03.png" class="image fit">
+                            <img src="{{root}}images/thumbs/03.png" title="{{data.brand}}" alt="{{data.brand}} - Image 3." />
+                        </a>
+                    </article>
+
+                    <article class="from-right">
+                        <a href="{{root}}images/fulls/04.png" class="image fit">
+                            <img src="{{root}}images/thumbs/04.png" title="{{data.brand}}" alt="{{data.brand}} - Image 4." />
+                        </a>
+                    </article>
+
+                </div>
+
+        </div>
+    </section>
+
+    {{> contact-info }}
