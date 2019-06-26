@@ -34,12 +34,6 @@ gulp.task('clean', function() {
     rimraf('_site');
 });
 
-gulp.task('zipme', () =>
-    gulp.src('_site/*')
-        .pipe(zip('website.zip'))
-        .pipe(gulp.dest('_site/'))
-);
-
 // Copy static assets
 gulp.task('copy', function() {
     //Copy other external font and data assets
@@ -137,5 +131,4 @@ gulp.task('copy-images', function() {
 });
 
 gulp.task('build', ['clean', 'compile-js', 'compile-scss', 'compile-html', 'copy' ]);
-gulp.task('zip', ['zipme']);
 gulp.task('default', ['server', 'watch']);

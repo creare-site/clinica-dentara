@@ -22,8 +22,7 @@
         "node": ">=0.10.1"
     },
     "scripts": {
-        "deploy": "gulp build && gulp zip && node deploy",
-        "zip": "gulp zip",
+        "deploy": "gulp build && node deploy",
         "start": "gulp",
         "clean": "gulp clean",
         "build": "gulp build"
