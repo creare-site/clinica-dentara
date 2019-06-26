@@ -1,13 +1,13 @@
 {
     "author"         : "WebsiteMarket",
     "email"          : "office@parvudent.ro",
-    "phone"          : "0746.951.017",
+    "phone"          : "0746.001.001",
 
     "brand"          : "Clinica Dentara",
     "h1"             : "Site Clinica Dentara",
 
     "top" : {
-        "info1"      : "Parvudent", 
+        "info1"      : "Cabinetul Tau", 
         "info2"      : "Alege sa ai dinti frumosi"
     }, 
 
@@ -17,10 +17,10 @@
     }, 
 
     "links" : {
-        "buy"        : "https://websitemarket.ro/comanda?ref=clinica-dentara", 
+        "buy"        : "https://websitemarket.ro?ref=clinica-dentara", 
         "blog"       : "https://websitemarket.ro/creare-site/clinica-dentara",
         "github"     : "https://github.com/creare-site/clinica-dentara",
-        "facebook"   : "https://www.facebook.com/Dr.AndreeaParvu"
+        "facebook"   : "https://www.facebook.com/Websitemarketro"
     }, 
 
     "LAST_KEY" : "NA"
