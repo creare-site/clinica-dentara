@@ -4,7 +4,7 @@ Site de prezentare, un produs [WebsiteMarket](https://websitemarket.ro)
 
 <br />
 
-![Clinica Dentara](https://raw.githubusercontent.com/creare-site/static/master/produse/creare-site-clinica-dentara.gif)
+![Clinica Dentara](https://raw.githubusercontent.com/creare-site/static/master/produse/creare-site-clinica-dentara-intro.gif)
 
 <br />
 
